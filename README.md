@@ -28,6 +28,9 @@ Video exemplo:
 Documentação streamilt
  - "https://docs.streamlit.io/library/api-reference/charts/st.altair_chart"
 
-API
+API Open IA
  - "https://platform.openai.com/api-keys"  - credenciais
  - "https://platform.openai.com/docs/api-reference/chat/create?lang=python" - utilização 
+
+ API Gemini
+ - https://aistudio.google.com/app/prompts/new_chat?utm_source=agd&utm_medium=referral&utm_campaign=core-cta&utm_content=
