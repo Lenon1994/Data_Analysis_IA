@@ -15,8 +15,9 @@ st.set_page_config(
 
 #Carregamento/ tratamento dos dados
 if "data" not in st.session_state:
-    df = pd.read_csv(r"C:\dev\gtp_python\gemini\notif_dengue_2024_final.csv", sep=';', encoding='latin-1', index_col=0)
-
+    #df = pd.read_csv(r"C:\dev\gtp_python\gemini\notif_dengue_2024_final.csv", sep=';', encoding='latin-1', index_col=0)
+    df = pd.read_csv("notif_dengue_2024_final.csv", sep=';', encoding='latin-1', index_col=0)
+    
     # Seleciona uma amostra aleatória linhas do DataFrame
     df = df.sample(n=200, random_state=42)
 
