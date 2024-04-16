@@ -16,7 +16,10 @@ st.write("## Utilizando IA para analisar os dados!🤖")
 df = st.session_state.get("data", pd.DataFrame())
 
 # Adiciona uma opção para selecionar todos os estados
-estado_options = ['Todos os estados'] + df["ESTADO"].unique().tolist()
+if 'ESTADO' in df.columns:
+    estado_options = ['Todos os estados'] + df["ESTADO"].unique().tolist()
+else:
+    estado_options = ['Todos os estados']
 
 # Filtro para selecionar o estado
 uf = st.sidebar.selectbox("Estado", estado_options)

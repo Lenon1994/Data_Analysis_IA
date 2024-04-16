@@ -32,7 +32,7 @@ if "data" not in st.session_state:
 st.write("## Uso de inteligência artifical para analisar casos de dengue 2024-BR!🦟")
 
 #opção para adicionar filtro ou outras informações na parte esquerda da página
-st.sidebar.markdown("codígo fonte - [github] (https://github.com/)")
+st.sidebar.markdown("codígo fonte - [github] (https://github.com/Lenon1994/Data_Analysis_IA.git)")
 
 
 #opção para adicionar botão com link
